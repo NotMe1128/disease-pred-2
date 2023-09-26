@@ -1,0 +1,75 @@
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(/static/medical-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #a258ed;
+    color: #fff;
+}
+
+/* Style the form */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style list items */
+li {
+    margin-bottom: 10px;
+}
+
+/* Style checkboxes and labels */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style the button */
+button {
+    background-color: #a258ed;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #3674f2;
+}
+
+/* Center the button */
+button[type="button"] {
+    display: block;
+    margin: 20px auto;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
