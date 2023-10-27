@@ -887,7 +887,7 @@ textarea#comment::placeholder {
     padding-top: 30px;
 }
 
-.subscribe_bt a {
+.subscribe_bt button {
     width: 100%;
     float: left;
     color: #ffffff;
@@ -900,7 +900,7 @@ textarea#comment::placeholder {
     text-align: center;
 }
 
-.subscribe_bt a:hover {
+.subscribe_bt button:hover {
     color: #ffffff;
     background-color: #3674f2;
 }
