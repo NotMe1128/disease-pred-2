@@ -144,10 +144,23 @@
             <h1 class="update_taital">Consult a Doctor... </h1>
             <form action="http://127.0.0.1:5501/action_page.php">
                <div class="form-group">
-                   <textarea class="update_mail" placeholder="Massage" rows="5" id="comment" name="Message"></textarea>
+                   <textarea class="update_mail" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
                </div>
                <div class="subscribe_bt"><a href="http://127.0.0.1:5501/index.html#">Contact Now</a></div>
             </form>
+         
+      
+         <div class="mapouter">
+            <div class="gmap_canvas">
+               <iframe class="gmap_iframe" frameborder="10" scrolling="no" marginheight="5" marginwidth="5`" src="https://maps.google.com/maps?width=360&amp;height=360&amp;hl=en&amp;q=Doctors in Navi Mumbai &amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                  
+               </iframe><a href="/">Doctors near you</a></div>
+            <style>
+            .mapouter{text-align:center;width:512px;height: 512px; padding-left: 33%; padding-top:7%;}
+            .gmap_canvas {overflow:hidden;background:rgb(12, 3, 82)!important;width:400px;height:400px; padding-top: 5px;}
+            .gmap_canvas > a{color:white;}
+            .gmap_iframe {width:360px!important;height:360px!important;}
+            </style>
          </div>
       </div>
       <!-- update section end -->
@@ -170,11 +183,7 @@
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">About</h2>
-                     <p class="footer_text">This Website employs advanced AI and machine learning 
-                         to provide precise disease predictions, fostering proactive healthcare choices.
-                         We prioritize data security, offer informative resources, and aim to empower 
-                         users in safeguarding their health. Join us in our mission to prevent diseases 
-                         and live healthier lives.</p>
+                     <p class="footer_text">This Website is powered by Disease Predict System Ltd.</p>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">Contact Us</h2>
@@ -190,7 +199,7 @@
                            </li>
                            <li>
                               <a href="http://127.0.0.1:5501/index.html#"><i class="fa fa-envelope" aria-hidden="true"></i>
-                              <span>  SelfHealthcare@gmail.com</span></a>
+                              <span class="padding_15">support@diseasepredict.com</span></a>
                            </li>
                         </ul>
                      </div>
