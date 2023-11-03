@@ -22,6 +22,16 @@
 					var data = JSON.parse(xhr.responseText);
 					window.location.href = "/results?output=" + encodeURIComponent(data.output); // Redirect to results page with output
 				}
+				else {
+					if (data&&data.msg){
+						//error message
+						alert(data.msg);
+					}
+					else{
+						alert("Sorry, The inputs you selected did not result in any predicted disease. Please make sure to select proper symptoms.");
+					}
+					
+				}
 			};
 		}
 	</script>
